@@ -36,6 +36,7 @@ What this means is that _all_ types are by default non nullable and will compile
 - Not that hard to learn with some basic C++/Java knowledge and you don't need to foray into many details; compiler has useful errors which should make it easy to learn as you go
 - Fairly speedy
 - Solid async/await solution built into the language, but perhaps a little confusing to see Task everywhere when you haven't yet learnt the language. Not easy to call async code from sync code.
+- They only need to implement the interface `IClient`, the `ClientBase` base class just provides some utilities
 
 
 
